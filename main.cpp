@@ -20,7 +20,7 @@ int main() {
         do { //Boucle pour s'assurer que la limite entrée par l'utilisateur est correcte
 
             cout << "Veuillez entrer une valeur limite comprise entre 2 et 1000 : " << endl;
-            cin >> limite;
+            cin  >> limite;
 
             // Vérification que la limite est dans l'intervalle autorisé
 
@@ -60,7 +60,7 @@ int main() {
         // Demander à l'utilisateur s'il veut recommencer
         do {
             cout << "Voulez-vous recommencer ? [O/N] : ";
-            cin >> reponse;
+            cin  >> reponse;
 
             // Vérifier si l'entrée est invalide et redemander la question
             if (reponse != 'O' && reponse != 'o' && reponse != 'N' && reponse != 'n') {
